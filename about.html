@@ -1,11 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Page</title>
+        
+    </head>
+    <body>
+
+        <header>
+
+            <form action="" method="">
+                <fieldset>
+                    <legend>Register form</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                    <br>
+                     <label for="email">Email</label>
+                     <input type="email" id="email">
+                     <br>
+                     <label for="pass">Password</label>
+                     <input type="password" id="pass">
+                     <br>
+                     <label for="phone">Phone</label>
+                     <input type="number" id="phone">
+                     <br>
+                     <label for="female" >Female</label>
+                     <input type="radio" name="gender" id="female">
+                     <label for="male">Male</label>
+                     <input type="radio" name="gender" id="male">
+                     <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Habits</legend>
+                    <label for="foot">Football</label>
+                    <input type="checkbox" id="foot" name="sport">
+                    <label for="tenis">Tenis</label>
+                    <input type="checkbox" name="sport" id="tenis">
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Information </legend>
+                    <label for="img">Image</label>
+                    <input type="file" accept="Image/*" id="img">
+                   <br>
+                    <br>
+                    <label for="Country">Country</label>
+                    <select id="Country">
+                        <option value="Jordan">Jordan</option>
+                        <option value="KSA">KSA</option>
+                        <option value="UAE">UAE</option>
+                    </select>
+                </fieldset>
+                <textarea name="Opinian" id="Opinian" placeholder="Opinion"></textarea>
+                 <br>
+                <input type="submit" value="Register">
+            </form>
+
+        </header>
+        <main>
+            <br><br><br><hr>
+            <table  border="1">
+                <thead>
+                    <tr>
+                        <th colspan ="2" >id/name</th>
+                        <!-- <th>name</th> -->
+                        <th>email</th>
+                    </tr>
+               </thead>
+               <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Esraa</td>
+                        <td>eee@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ahmad</td>
+                        <td>aaa@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Omar</td>
+                        <td>ooo@gmail.com</td>
+                    </tr>
+               </tbody>
+               <tfoot>
+                   <tr>
+                      <th>9</th>
+                   </tr>
+               </tfoot>
+            </table>
+
+        </main>
+        <footer>
+            <table border="1">
+             
+                    <tr>
+                        <th colspan ="2"> head 1 </th>
+                    </tr>
+              
+                <tbody>
+                    <tr>
+                        <td> body 1 </td>
+                        <td> body 2 </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <hr>
+            <table border="1">
+                <thead>
+                    <tr>
+                       <th > head 1 </th>
+                      <td > body 1 1 </td>
+                   </tr>
+                </thead>
+                <tbody>
+                    <tr>
+            <th rowspan="2"> head 2 </th>
+            <td> body 1 2 </td>
+                 </tr>
+         
+                 <tr>
+                    <td> body 2 2  </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <hr>
+
+        <video width="320" height="240" controls>
+            <source src="mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU?si=bU6Uc4nMuFUUmZO3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+        </footer>
+
+        
+    </body>
 </html>
