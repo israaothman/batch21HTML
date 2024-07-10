@@ -1,0 +1,68 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: rgb(60, 194, 122);
+    font-size: 20px;
+    /* font-weight: bolder; */
+    background-color: antiquewhite;            
+}
+
+#firstP{
+    color: red;
+    background-color: aquamarine;
+}
+
+.boldText{
+    font-weight: bolder;
+}
+
+
+main section p {
+    color:  black;
+}
+
+h3, div , span {
+    background-color: rgb(104, 104, 233);
+}
+
+
+div {
+    display: inline;
+    text-decoration: overline;
+}
+
+span{
+    display: block;
+    text-decoration: line-through;
+}
+
+nav ul li  {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    /* color: black; */
+}
+h3{
+    margin: 30px;
+    padding: 50px;
+    border: solid;
+}
+/* HW : INLINE-BLOCK */
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color:blueviolet
+}
+
+a:hover{
+    color: aqua;
+}
+
