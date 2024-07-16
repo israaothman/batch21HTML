@@ -35,7 +35,7 @@ div {
 
 span{
     display: block;
-    text-decoration: line-through;
+    text-decoration: line-through; 
 }
 
 nav ul li  {

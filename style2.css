@@ -1,0 +1,30 @@
+
+
+main section{
+   height: 200px;
+   width: 500px;
+   background-color: bisque;
+   text-align: justify;
+}
+
+main div{
+    height: 300px;
+    width: 500px;
+    background-color: aquamarine;
+}
+
+main div p {
+    width: 182px;
+}
+
+/* img{
+    float: right;
+    opacity: 0.5;  /*  0 - 1 */
+
+    .flexContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
