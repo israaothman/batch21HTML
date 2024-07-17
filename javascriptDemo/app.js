@@ -162,3 +162,167 @@ function test(){
 // console.log(hello);
 
 // let hello = "Hello"; //initialization 
+
+
+
+
+
+
+
+////////////////////////////// conditions 
+
+
+// if statment 
+
+// if(condition){
+//   code 
+// }else if(condition 2){
+//   code 
+// }else{
+
+// }
+
+// let age = Number(prompt("How old are you?"));
+
+// console.log(typeof Number(age));
+
+// if(age >= 20  && age <= 30){
+//   alert("Welcome to my course :)");
+// }else if(age < 20){
+//   alert("please finish the oop course ");
+// }else{
+//   alert("Thank you ")
+// }
+
+
+
+// switch(condition){
+//   case 1:
+//     code 
+//      break;
+    
+//   case 2 :
+//     code 
+//     break;
+//   default:
+
+// }
+
+
+// switch(age){ //"20"
+//   case 20 : 
+//      alert("Welcome");
+//      break;
+//   case 30 :
+//     alert("Hello")
+//     break;
+//   default:
+//     alert("Thank you")
+// }
+
+
+
+/////////////////////////// Loops ////////////////
+
+   for(let i= 0 ; i <=5 ; i++){
+    if(i%2 == 0 ) continue;
+    console.log(i);
+   }
+console.log("******************************");
+   for(let i= 0 ; i <=5 ; i++){
+    if(i == 3 ) break;
+    console.log(i);
+   }
+
+
+   let password = 1234;
+   
+  //  let pass = Number(prompt("Enter the password to log in ?"));
+
+//  while(pass != password){
+//       pass = Number(prompt("Enter the password to log in ?"));
+//  }
+
+//  let j=0;
+//  while(j <= 5){
+//   console.log(j);
+//   j++;
+//  }
+
+
+
+ let pass;
+
+//  do{
+//   pass = Number(prompt("Enter the password to log in ?"));
+//  }while(pass != password)
+
+
+
+/////////////////////////// Arrays 
+
+    let names = ["Esraa","Ahmad","Omar"];
+    let arr2 = [1, "Esraa", true];
+
+    names[3] = "Mohammad";
+    names.push("Besan");
+
+
+    console.log(names[2]);
+    console.log(names.length);
+
+    for(let i = 0 ; i < names.length; i++){
+        console.log(names[i]);
+    }
+
+
+    names.forEach(function(name){
+       console.log(`Hello ${name}`);
+    });
+
+    names.pop();
+    names.forEach(name=> console.log(`Welcome ${name}`));
+
+    // H.W shift unshift 
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////// Objects 
+
+
+// name 
+// age 
+// gender
+// employeed 
+
+let input = "name";
+
+
+let userInfo = {
+  name : "Saad",
+  age : 22 ,
+  // gender : "male",
+  employeed : false
+}
+
+console.log(userInfo[input]); // userInfo.name
+
+userInfo.age = 23;
+userInfo.gender = "male";
+console.log(userInfo.gender);
+
+for (const key in userInfo) {
+  console.log(`${key}: ${userInfo[key]}`);
+}
+
+
+
