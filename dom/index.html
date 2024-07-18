@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        header{
+            height: 200px;
+            background-color: rgb(152, 152, 152);
+        }
+        main{
+            height: 500px;
+            background-color: rgb(118, 168, 193);
+        }
+        footer{
+            height: 150px;
+            background-color: rgb(135, 51, 219);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+       <form action="" id="form">
+          <label for="name">Name</label>
+          <input type="text"  id="name">
+          <br>
+          <label for="age">Age</label>
+          <input type="number"  id="age">
+          <br>
+          <input type="submit" value="Save">
+       </form>
+
+       <hr>
+       <p id="username"></p>
+    </header>
+
+    <main>
+        <p id="pOne">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eaque alias, fugiat molestiae, illo voluptatum impedit excepturi ullam voluptates aliquid laborum maiores molestias perspiciatis quam? Consectetur blanditiis aliquid aliquam adipisci?</p>
+        <div id="divOne">
+             <p>test</p>
+        </div>
+        <div>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </div>
+    </main>
+    <footer>
+         New Products 
+         <form action="" id="Pform">
+            <label for="pro">product</label>
+            <input type="text"  id="pro">
+            <br>
+            <label for="price">price</label>
+            <input type="number"  id="price">
+            <br>
+            <input type="submit" value="Add">
+         </form>
+         <hr>
+         <div id="allProducts">
+
+         </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
